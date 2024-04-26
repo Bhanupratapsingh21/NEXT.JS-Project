@@ -104,7 +104,9 @@ const musicSchoolContent = [
 
 function WhyChooseus (){
     return(
-        <div>
+        <div className="bg-gray-900 ">
+          <h1 className="mt-20 pb-2 md:mt-0 text-center text-3xl md:text-5xl font-bold bg-clip-text text-transparent bg-white bg-gradient-to-b from-neutral-50 to-neutral-400">Why Edusic ?</h1>
+          
           <StickyScroll content={musicSchoolContent}/>
         </div>
     )
