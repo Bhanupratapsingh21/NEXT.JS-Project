@@ -18,7 +18,7 @@
         "price": 109.99,
         "instructor": "Jane Smith",
         "isFeatured": false,
-        "image": "/courses/piano.jpg" 
+        "image": "https://images.pexels.com/photos/159420/piano-instrument-music-keys-159420.jpeg?auto=compress&cs=tinysrgb&w=600" 
       },
       {
         "id": 3,
@@ -38,7 +38,7 @@
         "price": 129.99,
         "instructor": "Mike Brown",
         "isFeatured": false,
-        "image": "/courses/drumming.jpg"
+        "image": "https://images.pexels.com/photos/5650897/pexels-photo-5650897.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "id": 5,
@@ -48,7 +48,7 @@
         "price": 139.99,
         "instructor": "Chris Davis",
         "isFeatured": false,
-        "image": "/courses/jazz.jpg"
+        "image": "https://images.pexels.com/photos/4786246/pexels-photo-4786246.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "id": 6,
@@ -68,7 +68,7 @@
         "price": 159.99,
         "instructor": "Samantha Miller",
         "isFeatured": false,
-        "image": "/courses/song-writing.jpg"
+        "image": "https://images.pexels.com/photos/1891976/pexels-photo-1891976.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "id": 8,
@@ -88,7 +88,7 @@
         "price": 179.99,
         "instructor": "Grace Lee",
         "isFeatured": false,
-        "image": "/courses/classical-music.jpg"
+        "image": "https://images.pexels.com/photos/7096811/pexels-photo-7096811.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         "id": 10,
