@@ -1,5 +1,7 @@
 'use client'
 import React from "react";
+import { Meteors } from "@/components/ui/meteors";
+
 
 function page() {
 
@@ -17,14 +19,14 @@ function page() {
                                     <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
                                     <div className="w-3 h-3 rounded-full bg-green-500"></div>
                                 </div>
-
+                                
                             </div>
                             <div className="mt-4">
                                 <p className="text-green-400">$ Hey You Want To Connect With Me</p>
                                 <div>
                                     <a className="text-white" href="https://www.instagram.com/bhanu_pratap_2119">Instagram</a>
                                 </div>
-
+                                
                                 <div>
                                     <a className="text-white" href="https://github.com/Bhanupratapsingh21">Git-Hub</a>
                                 </div>
@@ -34,10 +36,13 @@ function page() {
                                 <div>
                                     <a className="text-white" href="https://x.com/BhanuFreelancer">X(Twitter)</a>
                                 </div>
-
+                                
                                 <p className="text-green-400">$</p>
                             </div>
                         </aside>
+
+                        {/* Meaty part - Meteor effect */}
+                        <Meteors number={20} />
                     </div>
                 </div>
             </div>
