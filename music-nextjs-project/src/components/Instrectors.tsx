@@ -47,7 +47,7 @@ function Instrector() {
                 <h2  className="mt-20 pb-2 md:mt-0 text-center text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-white bg-gradient-to-b from-neutral-50 to-neutral-400">Meet Our Instrectors</h2>
                 <p className="text-base md:text-lg text-white text-center mb-4">Discover The Talented Professionals Who Will Guide Your Musical Journay</p>
                 <div className="flex items-center justify-center">
-                    <AnimatedTooltip items={instrector} />
+                    <AnimatedTooltip key={"1"} items={instrector} />
                 </div>
             </WavyBackground>
         </div>

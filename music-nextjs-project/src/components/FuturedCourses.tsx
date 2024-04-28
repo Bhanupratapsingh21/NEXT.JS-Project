@@ -34,7 +34,7 @@ function FuturedCourses() {
                         {
                             featuredCourses.map((course: Course) => (
                                 <div key={course.id} className="flex justify-center">
-                                    <BackgroundGradient className="flex flex-col rounded-[22px] max-w-sm h-full p-4 sm:p-10 bg-white dark:bg-zinc-900 overflow-hidden">
+                                    <BackgroundGradient key={course.id} className="flex flex-col rounded-[22px] max-w-sm h-full p-4 sm:p-10 bg-white dark:bg-zinc-900 overflow-hidden">
                                         <Image
                                             src={course.image}
                                             alt={course.title}
