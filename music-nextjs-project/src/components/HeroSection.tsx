@@ -19,7 +19,7 @@ function HeroSection() {
                     Whether You're a Beginner Or Looking To Refine Your Skills, Join Us To Unlock Your True Potential.
                 </p>
                 <div className="mt-4">
-                    <Link href={"/Courses"}>
+                    <Link href={"/courses"}>
                         <Button
                         borderRadius="1.75rem"
                         className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
